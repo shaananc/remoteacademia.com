@@ -1,0 +1,14 @@
+#citp-icon {
+    height: 1em;
+    vertical-align: text-top;
+}
+
+/* details {
+    text-indent: 3em;
+} */
+
+details p{
+    text-indent: 3em;
+    text-align: justify;
+}
+
