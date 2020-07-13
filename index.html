@@ -14,6 +14,33 @@
 </head>
 
 <body>
+  <div class="modal" id="surveyModal" tabindex="-1" role="dialog" aria-labelledby="surveyModalLabel" aria-hidden="true"
+    tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="surveyModalLabel">Participate in Our Survey</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>As many of us have used this platform to express concerns about the use of digital and video platforms, we
+            thought it would be helpful to better assess the prevalence of particular platforms and the reality of
+            privacy and security practices and concerns.</p>
+          <p>We invite you to participate in a brief survey and will share
+            aggregate results here, as well as incorporate them in an interdisciplinary study of these platforms, as
+            described on the informed consent screen which precedes our survey.</p>
+        </div>
+        <div class="modal-footer">
+          <a class="btn btn-primary" href='https://princetonsurvey.az1.qualtrics.com/jfe/form/SV_bjUv0eBErmGcLJ3'>Enter
+            Survey</a>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="container my-4 my-xs-5 my-md-5 my-sm-5" id="heading-container">
     <div class="row">
       <div class="col align-self-center text-center">
@@ -64,8 +91,8 @@
               <p class="card-text">
                 We'll share our results with you and notify you of our
                 forthcoming publication.</p>
-              <a href="https://princetonsurvey.az1.qualtrics.com/jfe/form/SV_bjUv0eBErmGcLJ3"
-                class="mt-auto btn btn-primary">Complete Survey</a>
+              <button class="mt-auto btn btn-primary" data-toggle="modal" data-target="#surveyModal">More
+                Information</button>
             </div>
           </div>
         </div>
